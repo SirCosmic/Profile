@@ -69,6 +69,6 @@ body {
 }
 
 .links a:hover {
-    border: solid 1px #fff;
-    color: #fff;
+    border: solid 1px #4b9ced;
+    color: #2f4eec;
 }
