@@ -1,7 +1,6 @@
 body {
     color: #444;
-    background: rgb(0,200, 127);
-    background: radial-gradient(circle, rgb(15, 231, 235)25%, rgb(53, 111, 246)100%);
+    background: rgb(255, 255, 255);
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
