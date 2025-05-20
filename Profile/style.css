@@ -70,6 +70,8 @@ body {
 .links__item {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .links a:hover {
