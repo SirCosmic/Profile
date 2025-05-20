@@ -13,7 +13,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
-    width: 100%;
     text-align: center;
 }
 
@@ -50,7 +49,7 @@ body {
 
 .links ul {
   list-style: none;
-
+  padding-left: 0;
 }
 
 .links a {
