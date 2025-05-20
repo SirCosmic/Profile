@@ -76,9 +76,3 @@ body {
     border: solid 1px #eacaca;
     color: #f1d5d5;
 }
-
-@media (max-width: 1600px) {
-    .container {
-        width: 400px;
-    }
-}
