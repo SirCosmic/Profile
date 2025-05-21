@@ -1,5 +1,5 @@
 body {
-    background-image: url('./Fundo.png'); /* Caminho da sua imagem */
+    background-image: url('./Type=Grey\ \(1\).png'); /* Caminho da sua imagem */
     background-size: cover; /* Garante que a imagem cubra toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
@@ -58,6 +58,7 @@ body {
 }
 
 .links a {
+    background-color: #2D68FE;
     display: flex;
     height: 56px;
     width: 508px;
@@ -67,7 +68,7 @@ body {
     border-radius: 16px;
     text-decoration: none;
     margin-bottom: 16px;
-    color: #020202;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 18px ;
 }
@@ -77,8 +78,8 @@ body {
 }
 
 .links a:hover {
+    background-color: #324054;
     border: solid 1px #eacaca;
-    color: #f1d5d5;
 }
 
 
