@@ -5,14 +5,13 @@ body {
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     color: #444;
     min-height: 100vh;
-    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
 
 .container {
-    background-color: aliceblue;
-    height: 566px;
+    background-color: #fff;
+    height: 680px;
     width: 636px;
     border-radius: 24px;
     position: absolute;

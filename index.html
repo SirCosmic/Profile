@@ -7,6 +7,7 @@
   <title>Profile</title>
   <meta name="description" content="Página de perfil/Currículo">
   <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/components.css">
   <!-- Meta tags para redes sociais -->
   <meta property="og:title" content=" Guilherme Silva Trajano">
   <meta property="og:type" content="website">
@@ -15,26 +16,73 @@
   <meta property="og:image:alt" content="Foto de perfil">
   <meta property="og:site_name" content="Profile">
   <meta property="og:url" content="https://sircosmic.github.io/Profile/">
+  <script src="./scripts/components.js" async></script>
 </head>
 <body>
   <div class="container">
+
     <div class="profile">
+
       <div class="profile__header">
+
         <img src="styles/Perfil.jpg" width="200px" height="200px" alt="">
         <h1>Guilherme Trajano</h1>
         <h2>Front End Developer</h2>
+
       </div>
+
       <div class="profile__about">
         Desenvolvedor
       </div>
+
     </div>
 
     <div class="links">
-      <ul>
-        <li><a href=""><span class="emoji">&#8986;</span> <span class="links__item">Github</span></a></li>
-        <li><a href=""><span class="emoji">&#9924;</span> <span class="links__item">Projetos</span></a></li>
-      </ul>
+
+      <div class="view-more">
+
+        <div class="view-more__content">
+
+          <ul>
+
+            <li>
+
+              <a href="">
+                <span class="emoji">&#8986;</span> 
+                <span class="links__item">Github</span>
+              </a>
+
+            </li>
+
+            <li>
+
+              <a href="">
+                <span class="emoji">&#9924;</span>
+                <span class="links__item">Instagram</span>
+              </a>
+
+            </li>
+
+            <li>
+
+              <a href="">
+                <span class="emoji">&#9924;</span>
+                <span class="links__item">LinkedIn</span>
+              </a>
+
+            </li>
+
+          </ul>
+
+        </div>
+        <div class="view-more__actions">
+          <button class="view-more-expand">Ver mais</button>
+          <button class="view-more-collapse">Ver menos</button>
+        </div>
+      </div>
+          
     </div>
+
   </div>
 </body>
 </html>
