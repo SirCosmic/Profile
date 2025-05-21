@@ -1,13 +1,11 @@
 body {
-    background-image: url('./Fundo.png'); /* Caminho da sua imagem */
+    background-image: url('Fundo.png'); /* Caminho da sua imagem */
     background-size: cover; /* Garante que a imagem cubra toda a tela */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     color: #444;
     min-height: 100vh;
-    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
 }
 
 .container {
@@ -15,10 +13,10 @@ body {
     height: 566px;
     width: 636px;
     border-radius: 24px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 16px;
 }
 
 .profile {
@@ -46,18 +44,14 @@ body {
     text-align: center;
 }
 
-.links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.profile__about div {
+    padding: 16px;
+    margin: 10px;
 }
 
 .links ul {
     list-style: none;
-    padding: 0 0 0 0 ;
-}
-
-.links li {
+    padding-left: 70px;
 }
 
 .links a {
@@ -83,11 +77,3 @@ body {
     border: solid 1px #eacaca;
     color: #f1d5d5;
 }
-
-
-/*@media (max-width: 600px) {
-    .box {
-        width: 150px;
-        height: 150px;
-    }
-}*/
