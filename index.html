@@ -19,74 +19,82 @@
   <script src="./scripts/components.js" async></script>
 </head>
 <body>
-  <div class="container"> <!-- Caixa branca -->
+  <div class="full-center-center">
+    <div class="box box-avatar">
+      <div class="box__avatar">
+        <img src="styles/Perfil.jpg" width="200px" height="200px"  alt="">
+      </div>
 
-    <div class="profile"> <!-- Foto, nome e apresentaçaõ -->
-
-      <div class="profile__header"> <!-- Foto e nome -->
-
-        <img src="styles/Perfil.jpg" width="200px" height="200px" alt="">
+      <div class="box__header">
         <h1>Guilherme Trajano</h1>
         <h2>Front End Developer</h2>
-
       </div>
 
-      <div class="profile__about"> <!-- Apresentação -->
-        Desenvolvedor
-      </div>
+      <div class="box__content">
+        <div class="view-more">
+          <div class="view-more__content">
+            <ul class="link-list">
+              <li>
 
-    </div>
+                <a href="">
+                  <span><img src=""></span> 
+                  <span>Github</span>
+                </a>
 
-    <div class="links"> <!-- links -->
+              </li>
 
-      <div class="view-more">
+              <li>
 
-        <div class="view-more__content">
+                <a href="">
+                  <span><img src=""></span>
+                  <span>Instagram</span>
+                </a>
 
-          <ul>
+              </li>
 
-            <li>
+              <li>
 
-              <a href="">
-                <span class="emoji">&#8986;</span> 
-                <span class="links__item">Github</span>
-              </a>
+                <a href="">
+                  <span><img src=""></span>
+                  <span>LinkedIn</span>
+                </a>
 
-            </li>
+              </li>
 
-            <li>
+            </ul>
 
-              <a href="">
-                <span class="emoji">&#9924;</span>
-                <span class="links__item">Instagram</span>
-              </a>
+          </div>
 
-            </li>
-
-            <li>
-
-              <a href="">
-                <span class="emoji">&#9924;</span>
-                <span class="links__item">LinkedIn</span>
-              </a>
-
-            </li>
-
-          </ul>
+          <div class="view-more__actions"> <!-- Botões de ver mais e ver menos; link JS -->
+            <button class="view-more-expand">Ver mais</button>
+            <button class="view-more-collapse">Ver menos</button>
+          </div>
 
         </div>
-
-        <div class="view-more__actions"> <!-- Botões de ver mais e ver menos; link JS -->
-          <button class="view-more-expand">Ver mais</button>
-          <button class="view-more-collapse">Ver menos</button>
-        </div>
-
+            
       </div>
-          
     </div>
-
   </div>
 
-  <div class="container__acordion"></div>
+  <div class="full-center-center"> <!--accordion-->
+    <div class="box">
+      <div class="box__title">
+        <img src="">
+        <h2>Importante</h2>
+      </div>
+      <details class="accordion" open>
+        <summary>
+          <span>JS</span>
+          <span class="accodion__icon">
+
+          </span>
+        </summary>
+      </details>
+
+      <details class="accordion"></details>
+
+      <details class="accordion"></details>
+    </div>
+  </div>
 </body>
 </html>
