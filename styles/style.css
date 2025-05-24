@@ -72,7 +72,7 @@ html {
     transform: translate(-50%);
 }
 
-.box-avatar img {
+.box__avatar img {
     border-radius: 20px;
 }
 
