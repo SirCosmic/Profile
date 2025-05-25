@@ -42,3 +42,53 @@
     font-weight: 700;
     cursor: pointer;  
   }
+
+.accordion {
+  border-bottom: solid 2px #bfbfbf; /* Borda inferior para separar os accordions */
+  transition: 0.8s;
+}
+
+.accordion summary {
+  color: #324054; /* Cor do título do Accordion fechado */
+  font-size: 20px; /* Tamanho da fonte do título */
+  font-style: normal; /* Estilo normal da fonte*/
+  font-weight: 600; /*Peso da fonte do título*/
+  cursor: pointer; /*Cursor indicativo de ação*/
+  width: 100%; /* largura completa */
+  display: flex; /*Usa flexbox para alinhamento*/
+  padding: 32px 0; /* Espaçamento vertical no título */
+  align-items: center; /* Alinha itens verticalmente ao centro */
+  justify-content: space-between; /* Espaçamento entre itens*/
+}
+
+
+.accordion p {
+  color: #324054; /* Cor do texto do conteúdo */
+  font-size: 16x; /* Tamanho da fonte do conteúdo */
+  font-style: normal; /* Estilo normal da fonte */
+  font-weight: 400; /* Peso da fonte do conteúdo */
+  margin: 0; /* Remove margens padrão */
+  margin-bottom: 16px; /* Espaço abaixo de cada parágrafo */
+}
+
+.accordion p:last-child {
+  margin-bottom: 0; /* remove margem do último parágrafo */
+}
+
+.accordion[open] {
+  padding-bottom: 32px; /* Espaçamento adicional quando abaixo */
+}
+
+
+ .accordion[open] summary {
+  padding-bottom: 16px; /* Ajuste no espaçamento do título */
+  color: #2d68fe; /* Muda a cor do fundo para indicar  */
+}
+
+.accordion:nth-of-type(2)[open] summary{
+  color: rgb(203, 16, 16);
+}
+
+.accordion:last-of-type[open] summary {
+  color: #2dfe68;
+}
